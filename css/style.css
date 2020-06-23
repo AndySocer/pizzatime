@@ -1,0 +1,104 @@
+@import url('fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+body{
+	font-family: 'Montserrat', sans-serif;
+    color: var(--negro);
+}
+:root{
+    --amarillo: #F9C22D;
+    --rojo: #D75437;
+    --naranja: #F18805;
+    --blanco: #F3EFE0;
+    --negro: #474747;
+    --f7-theme-color: #D75437;
+    --f7-list-border-color: none;
+    --f7-page-bg-color:#F9C22D;
+}
+.panel-right{
+    background-color: var(--blanco);
+    color: var(--rojo);
+}
+.navbar-bg{
+    background-color: var(--amarillo);
+}
+.navbar .title{
+    font-weight: bold;
+    font-size: 22px;
+    color: var(--rojo);
+}
+.list{
+    padding-top: 0;
+    margin-top: 0;
+}
+.list-menu .item-media span{
+   color: var(--rojo);
+}
+.list-menu .item-inner{
+    color: var(--negro);
+    font-weight: 700 !important;
+}
+.list-menu{
+    background-color: var(--blanco) !important;
+    font-size: 14px;
+}
+.list-menu .item-inner::before{
+	color: var(--negro) !important;
+}
+.list-menu .item-inner::after{
+    background-color: transparent;
+}
+.list-menu li{
+    padding-top: 10px;
+}
+h1, h2, h3, h4{
+    margin: 2px 0;
+}
+article .page-content{
+    background: var(--naranja);
+}
+.opcion{
+    padding-top: 10px;
+}
+
+.bg-pizza{
+    background-image: url("../img/04 pizza Desde 0.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #474747;
+}
+.bg-promo{
+    background-image: url( "../img/combos/Combo_COMPRESSED.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #474747;
+}
+.bg-togo{
+    background-image: url( "../img/08 combos.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #474747;
+}
+.bg-desde0{
+    background-image: url( "../img/03 pizza Desde 0.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #474747;
+}
+.menu-principal h2{
+    margin: -5%;
+    color: var(--blanco);
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding: 17%;
+    background-color: rgba(0,0,0,.2);
+    text-shadow: 0.5px 0.5px var(--naranja);
+}
+
