@@ -24,6 +24,11 @@ var app = new Framework7({
     	url: 'pizza.html',
     	name: 'pizza',
   		},
+        {
+		path: '/combos/',
+    	url: 'combos.html',
+    	name: 'combos',
+  		},
 	]
 });
 
