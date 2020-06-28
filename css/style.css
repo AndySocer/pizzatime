@@ -193,5 +193,13 @@ article .page-content {
     text-align: center;
 }
 
+.total-ingrediente article {
+    padding-top: 20px;
+}
+
+.total-ingrediente h4 {
+    font-weight: lighter;
+}
+
 
 /*Linda Donaire - final*/

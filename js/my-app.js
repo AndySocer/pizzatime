@@ -33,6 +33,11 @@ var app = new Framework7({
             url: 'ingrediente.html',
             name: 'ingrediente',
         },
+        {
+            path: '/carrito/',
+            url: 'carrito.html',
+            name: 'carrito',
+        },
     ]
 });
 
