@@ -1,20 +1,5 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pizza Time</title>
-<link rel="stylesheet" href="css/framework7.min.css">
-<link rel="stylesheet" href="css/framework7.bundle.min.css">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-    
-<div id="app">
-
-      <!-- Your main view, should have "view-main" class -->
+<section data-name="checkout" class="page">
+	 <!-- Your main view, should have "view-main" class -->
       <div class="view view-main view-init">
         <!-- Initial Page, "data-name" contains page name -->
         <section data-name="home" class="page">
@@ -107,108 +92,122 @@
                 </div>
             </div>
           </nav>
-
-          <!-- Scrollable page content -->
-          <article class="page-content">  
-              
-            <section class="menu-principal">
-                <div class="opcion">
-                    <div class="bg-pizza">
-                        <div class="block">
-                            <a href="/pizza/"><h2>Pizza</h2></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="opcion">
-                    <div class="bg-promo">
-                        <div class="block">
-                            <a href="//"><h2>Promociones</h2></a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="opcion">
-                    <div class="bg-togo">
-                        <div class="block">
-                            <a href="//"><h2>To Go</h2></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-              
-          </article>
-            
-        </section>
-        <section id="login">
-
-		<div class="login-screen modal-in">
-		  <!-- Default view-page layout -->
-		  <div class="view">
-			<div class="page login-screen-page">
-			  <!-- page-content has additional login-screen content -->
-			  <div class="page-content login-screen-content">
-				<div class="login-screen-title"><img src="img/Logo1.png" class="img-fluid"></div>
-				<!-- Login form -->
-				<form>
-				  <div class="list">
-					<ul>
-					  <li class="item-content item-input">
-						<div class="item-inner">
-						  <div class="item-title item-label">Usuario</div>
-						  <div class="item-input-wrap">
-							<input type="text" name="username" id="username" placeholder="Username">
-							<span class="input-clear-button"></span>
-						  </div>
+			<article class="page-content">
+				<section class="checkout">
+					<div class="block">
+						<div class="row">
+							<article class="col-10">
+								<a href="#">
+								<span class="material-icons cross">
+									clear
+								</span>
+								</a>
+							</article>
+							<article class="col-50">
+								<h2>Maxicombo</h2>
+								<p>1 Pizza gigante de pepperoni, 9 cheesebreads, 9 palitroques, 12 alitas y 1 refresco de 3 litros.</p>
+							</article>
+							<article class="col-20">
+								<div class="counter">
+								<div class="row">
+									<article>
+										<a href="#">
+										<span class="material-icons">
+											add
+										</span>
+										</a>
+									</article>
+									<article>
+										<h1>1</h1>
+									</article>
+									<article>
+										<a href="#">
+										<span class="material-icons">
+											remove
+										</span>
+										</a>
+									</article>
+								</div>
+								<h3>L.576.00</h3>
+								</div>
+							</article>
 						</div>
-					  </li>
-					  <li class="item-content item-input">
-						<div class="item-inner">
-						  <div class="item-title item-label">Contrasena</div>
-						  <div class="item-input-wrap">
-							<input type="password" name="password" id="password" placeholder="Password">
-							<span class="input-clear-button"></span>
-						  </div>
+						<div class="row">
+							<article class="col-10">
+								<a href="#">
+								<span class="material-icons cross">
+									clear
+								</span>
+								</a>
+							</article>
+							<article class="col-50">
+								<h2>Calzone Meat Love</h2>
+								<p>1 Calzone de jamón y salchicha.</p>
+							</article>
+							<article class="col-20">
+								<div class="counter">
+								<div class="row">
+									<article>
+										<a href="#">
+										<span class="material-icons">
+											add
+										</span>
+										</a>
+									</article>
+									<article>
+										<h1>1</h1>
+									</article>
+									<article>
+										<a href="#">
+										<span class="material-icons">
+											remove
+										</span>
+										</a>
+									</article>
+								</div>
+								<h3>L.54.00</h3>
+								</div>
+							</article>
 						</div>
-					  </li>
-					</ul>
-				  </div>
-				  <div class="list block">
-					<ul>
-					  <li>
-						<a href="#" id="btnLogin" class="button button-fill button-round">Ingresar</a>
-					  </li>
-						<li><a href="#" class="button login-screen-close">Mas Tarde</a></li>
-					</ul>
-					<div class="block-footer">No tienes una cuenta? <a href="#">Crear cuenta</a></div>
-				  </div>
-				</form>
-			  </div>
-			</div>
-		  </div>
-		</div>
-				  </section>  
-      </div>
-    
-</div>   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-<script src="js/framework7.min.js"></script>
-<script src="js/framework7.bundle.min.js"></script>
-<script src="js/my-app.js"></script>
-</body>
-</html>
+						<hr>
+						<div class="addmore">
+						<a href="/pizza/">
+							<span class="material-icons">
+								add
+							</span>
+						</a>
+						</div>
+						<div class="total">
+							<div class="row">
+								<article class="col-50">
+									<p>subtotal:</p>
+								</article>
+								<article class="col-50">
+									<p><span>L.620.00</span></p>
+								</article>
+							</div>
+							<div class="row">
+								<article class="col-50">
+									<p>impuesto:</p>
+								</article>
+								<article class="col-50">
+									<p><span>L.29.00</span></p>
+								</article>
+							</div>
+							<div class="row">
+								<article class="col-50">
+									<h2>Total:</h2>
+								</article>
+								<article class="col-50">
+									<h2><span>L.650.00</span></h2>
+								</article>
+							</div>
+							<div class="btn-orden">
+							<a href="#" id="btnAlert" class="button button-fill">PROCESAR ORDEN</a>
+							</div>
+					</div>
+					
+					
+				</section>
+			</article>
+
