@@ -201,5 +201,45 @@ article .page-content {
     font-weight: lighter;
 }
 
+.bg-carrito h3 {
+    color: var(--negro);
+    font-size: 18px;
+}
+
+.bg-carrito h4 {
+    color: var(--negro);
+    font-size: 17px;
+}
+
+.carrito-descrip {
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+.carrito-descrip h3 {
+    color: var(--negro);
+    font-size: 9px;
+    font-weight: lighter;
+}
+
+.carrito-descrip h4 {
+    color: var(--negro);
+    font-size: 17px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+#btnplus {
+    background-color: var(--amarillo);
+    color: var(--rojo);
+    margin-top: -10px;
+}
+
+.bg-carritocompra h2 {
+    text-align: center;
+    padding-top: 55%;
+    padding-bottom: 20px;
+}
+
 
 /*Linda Donaire - final*/
