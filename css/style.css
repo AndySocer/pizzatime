@@ -229,6 +229,26 @@ article .page-content {
     margin-top: 9px;
 }
 
+.subtotal {
+    padding-top: 30px;
+    margin-left: 15px;
+}
+
+.subtotal h3,
+.subtotal h4 {
+    font-size: 12px;
+    font-weight: lighter;
+}
+
+.total-negrita {
+    margin-left: 15px;
+}
+
+.total-negrita h3,
+.total-negrita h4 {
+    font-size: 18px;
+}
+
 #btnplus {
     background-color: var(--amarillo);
     color: var(--rojo);
@@ -244,6 +264,10 @@ article .page-content {
 .bg-carritocompra {
     padding-right: 10px;
     padding-left: 10px;
+}
+
+.navbar .delete-orden {
+    margin-right: 5px;
 }
 
 
