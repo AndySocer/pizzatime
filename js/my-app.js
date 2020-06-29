@@ -50,7 +50,7 @@ var app = new Framework7({
 		},
 		{
 			path: '/direcciones/',
-			url: 'direcciones',
+			url: 'direcciones.html',
 			name: 'direcciones',
 		},
         {
