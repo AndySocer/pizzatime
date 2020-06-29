@@ -38,6 +38,11 @@ var app = new Framework7({
             url: 'carrito.html',
             name: 'carrito',
         },
+		{
+            path: '/checkout/',
+            url: 'checkout.html',
+            name: 'checkout',
+        },
         {
             path: '/carritocompra/',
             url: 'carritocompra.html',

@@ -168,6 +168,10 @@ article .page-content {
     color: var(--rojo);
 }
 
+.combos-lista a {
+	color: var(--negro) !important;	
+}
+
 
 /*Linda Donaire - inicio*/
 
