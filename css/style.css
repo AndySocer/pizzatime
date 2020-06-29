@@ -315,15 +315,13 @@ article .page-content {
 
 
 .form-group{
-	font-size: 22px;
+	font-size: 18px;
 	color: var(--negro);
 	font-weight: bold;
-	margin-left: 130px;
 }
 .btn-cambiarcontra{
 	background-color: var(--naranja);
 	color: #fff;
 	font-weight: bold;
-	padding: 10px 100%;
 }
 /*Michelle - inicio*/
