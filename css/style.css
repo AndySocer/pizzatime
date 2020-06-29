@@ -280,10 +280,10 @@ article .page-content {
     font-weight: bold;
     padding-bottom: 12px;
 }
-h3 .content-config{
+.content-config{
 	color: var(--negro);
 	font-size: 14px;
-	font-weight: 400;
+	font-weight: 300;
 }
 .media-config{
 	color: var(--naranja);
