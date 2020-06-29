@@ -280,8 +280,15 @@ article .page-content {
     font-weight: bold;
     padding-bottom: 12px;
 }
+.content-config{
+	color: var(--negro);
+}
 .media-config{
 	color: var(--naranja);
 	font-size: 18px;
+}
+.list-menu {
+    background-color: var(--amarillo) !important;
+    font-size: 14px;
 }
 /*Michelle - inicio*/
