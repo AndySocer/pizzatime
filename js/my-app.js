@@ -43,6 +43,11 @@ var app = new Framework7({
             url: 'carritocompra.html',
             name: 'carritocompra',
         },
+        {
+            path: '/config/',
+            url: 'config.html',
+            name: 'config',
+        },
     ]
 });
 
