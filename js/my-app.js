@@ -52,7 +52,12 @@ var app = new Framework7({
 			path: '/direcciones/',
 			url: 'direcciones',
 			name: 'direcciones',
-		}
+		},
+        {
+            path: '/config/',
+            url: 'config.html',
+            name: 'config',
+        }
     ]
 });
 
