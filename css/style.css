@@ -348,3 +348,53 @@ article .page-content {
 	padding: 10px 100%;
 }
 /*Michelle - inicio*/
+
+/*Gabriel - incio*/
+.login-screen .page, .login-screen-content, .login-screen-page{
+	background-color:  #F9C22D !important;
+}
+#login img{
+	width: 500px;
+}
+
+.checkout .cross{
+	color: var(--rojo);
+	font-weight: 600;
+	font-size: 40px;
+}
+.checkout h3{
+	margin-top: 50px;
+}
+.checkout h1{
+	font-size: 20px;
+}
+.checkout .counter span{
+	background-color: var(--naranja);
+	border-radius: 50%;
+	box-shadow: 1px 1px var(--rojo);
+}
+.checkout .addmore span{
+	background-color: var(--naranja);
+	border-radius: 50%;
+	box-shadow: 1px 1px var(--rojo);
+	font-size: 45px;
+	text-align: center;
+	margin-top: 75px;
+	margin-left: 210px;
+}
+.checkout .total p{
+	text-align: left;
+}
+.checkout .total span{
+	margin-left: 30px;
+}
+.checkout .total h2{
+	text-align: left;
+}
+.checkout .btn-orden a{
+	background-color: var(--naranja);
+	box-shadow: 1px 1px var(rojo);
+	color: var(--blanco);
+	margin-top: 20px;
+}
+/*Gabriel - final*/
