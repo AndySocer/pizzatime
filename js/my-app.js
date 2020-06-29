@@ -43,6 +43,16 @@ var app = new Framework7({
             url: 'carritocompra.html',
             name: 'carritocompra',
         },
+		{
+			path: '/pago/',
+			url: 'pago.html',
+			name: 'pago',
+		},
+		{
+			path: '/direcciones/',
+			url: 'direcciones',
+			name: 'direcciones',
+		}
     ]
 });
 
