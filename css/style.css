@@ -304,6 +304,9 @@ article .page-content {
 	color: var(--rojo);
 	font-size: 18px;
 }
+.media-config .material-icons{
+	text-align: center;
+}
 .list-pref,
 .list-about{
 	background-color: var(--amarillo) !important;
