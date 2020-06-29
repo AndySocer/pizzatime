@@ -286,11 +286,10 @@ article .page-content {
 	font-weight: 300;
 }
 .media-config{
-	color: var(--naranja);
+	color: var(--rojo);
 	font-size: 18px;
 }
-.list-menu {
+.list-pref{
     background-color: var(--amarillo) !important;
-    font-size: 14px;
 }
 /*Michelle - inicio*/
