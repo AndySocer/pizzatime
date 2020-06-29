@@ -57,6 +57,11 @@ var app = new Framework7({
             path: '/config/',
             url: 'config.html',
             name: 'config',
+        },
+        {
+            path: '/cambiarcontra/',
+            url: 'cambiarcontra.html',
+            name: 'cambiarcontra',
         }
     ]
 });
