@@ -126,6 +126,7 @@ article .page-content {
 
 .img-fluid {
     max-width: 100%;
+	min-height: 100%;
 }
 
 .altura-card {
@@ -290,11 +291,11 @@ article .page-content {
 .lista-direcciones .list .item-link {
 	background-color: var(--blanco) !important;
 }
-.toolbar{
-	background-color: var(--blanco);
-}
-.tabbar a{
-	color: var(--rojo);
+
+.username-block {
+	margin: 0 !important;
+	padding-top: 30px;
+	padding-bottom: 10px;
 }
 
 /*Christian Henriquez - final*/
